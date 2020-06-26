@@ -1,0 +1,1 @@
+gcc   -o socket_client socket_client.c
