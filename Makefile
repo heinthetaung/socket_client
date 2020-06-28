@@ -1,7 +1,8 @@
-SRCS=socket_client.c
-LDFLAGS=
+SRCS=socket_client.c cJSON.c
+LDFLAGS=-pthread
 #CC=aarch64-linux-gnu-gcc
 CC=gcc
+#CC=x86_64-w64-mingw32-gcc
 
 all: socket_client
 
